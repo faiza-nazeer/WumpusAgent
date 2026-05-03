@@ -559,7 +559,7 @@ export default function WumpusAgent() {
     for (const nb of neighbors) {
       const nid = cellId(nb.r, nb.c);
       if (!newGrid[nb.r][nb.c].visited) {
-        const { safe, noPit, noWumpus, steps, proofLog } = currentKb.askSafe(nb.r, nb.c);
+        const { safe, noPit, noWumpus: _noWumpus, steps, proofLog } = currentKb.askSafe(nb.r, nb.c);
         inferSteps += steps;
         allCnfLogs.push(...proofLog);
 
