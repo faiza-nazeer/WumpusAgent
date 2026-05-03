@@ -62,7 +62,7 @@ This project is a **web-based intelligent agent** that solves the Wumpus World u
 
 ## 📸 Demo
 
-👉 *Add your screen recording / deployment link here*
+https://wumpusagent.netlify.app/
 
 ---
 
